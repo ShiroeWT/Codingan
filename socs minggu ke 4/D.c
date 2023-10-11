@@ -5,7 +5,7 @@ int main()
     scanf("%d %d %d", &N, &M, &Q);
     int arr[N][M];
             
-    for (int i = 0; i<N; i++)   // bikin array nya jadi 0 semua dulu, kalo ngga gini  bisa error (sumber pembimbing LAB)
+    for (int i = 0; i<N; i++)   // bikin array nya jadi 0 semua dulu, kalo ngga gini akan terjadi error nanti (sumber pembimbing LAB)
     {
         for (int j = 0; j<M; j++)
         {
