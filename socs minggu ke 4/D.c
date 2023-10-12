@@ -23,7 +23,7 @@ int main()
         for (int j = 0; j<M; j++)
         {
             printf("%d", arr[i][j]);
-            if(j<M-1) printf(" ");
+            if(j<M-1) printf(" "); // biar spasi nya ngga ada saat counter terakhir
         }
         printf("\n");
     }
