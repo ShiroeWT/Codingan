@@ -4,7 +4,7 @@ int main()
 {
     int n;
     scanf("%d", &m); // input ada brp siswa
-    char tabel[3][m][1000]; // [0 nim, 1 nama, 2 umur][jumlah siswa][panjang string]
+    char tabel[3][m][1000]; // [0 nama, 1 nim, 2 umur][jumlah siswa][panjang string]
     for (int i = 0; i < m; i++)
     {
         printf("Nama : ");
